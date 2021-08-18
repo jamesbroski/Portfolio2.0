@@ -5,13 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="bg-light">
+    <!-- navbar start -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-success fw-bold fs-4" href="#"
+          >Denver, CO</a
+        >
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle btn-success"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          ></button>
+
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <!-- <li><a class="dropdown-item" href="#about">About</a></li> -->
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home section start -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img
+                id="profpic"
+                src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.6435-9/122351602_107045471194481_7714270090303329927_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=WX5-BRKt0EQAX-usmk1&_nc_ht=scontent.fapa1-2.fna&oh=370ff58c0f921ecf273e691ca5f95383&oe=6124B8B2"
+                class="rounded-circle mw-100"
+                alt="Profile Pic"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-success text-uppercase fs-1 fw-bold">
+                Web Developer
+              </h1>
+              <h2 class="fs-4">James Broski</h2>
+              <p class="mt-4 text-muted">
+                I am currently in a Full-Stack Web Development Coding Bootcamp
+                through the University of Denver. Originally, I come from a
+                Health & Exercise background, so jumping into something like
+                coding is far from what I'm used to. I am looking forward to
+                building this portfolio to showcase not only the projects I'll
+                have completed through this bootcamp, but also side-projects I
+                will want to build as well! Thank you for taking the time to
+                look through my portfolio, and I hope you find something you
+                enjoy!
+              </p>
+              <a class="btn btn-success px-3 mt-3" href="#portfolio">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio bg-white py-5" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Latest Projects</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
