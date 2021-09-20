@@ -1,3 +1,5 @@
+![license badge](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
 # Portfolio2.0
 
 Hello! Welcome to my Professional Portfolio
