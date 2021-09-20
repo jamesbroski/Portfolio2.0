@@ -18,4 +18,9 @@ Lastly, a contact section where potential employers and developers could reach m
 
 Link to deployed application here: https://jamesbroski.github.io/Portfolio2.0/
 
+Below is a screenshot of what the user can expect:
+
+![Screen Shot 2021-09-19 at 8 58 06 PM 2](https://user-images.githubusercontent.com/87332492/133953214-4a7a91ed-8d4e-4359-8c72-f00bfeae58aa.png)
+
+
 Changes in process - more to come!
