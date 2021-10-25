@@ -1,3 +1,5 @@
+![license badge](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
 # Portfolio2.0
 
 Hello! Welcome to my Professional Portfolio
@@ -10,7 +12,7 @@ A Professional Portfolio displaying my name, a picture of myself, and a nav bar 
 
 An about me section that shares just a little bit about myself.
 
-A work section that (whuile currently has placeholders) will show prospective projects I've completed.
+A work section that (while currently has placeholders) will show prospective projects I've completed.
 
 A carefully thought out layout to help ease the user's experience and have a natural flow of the page.
 
